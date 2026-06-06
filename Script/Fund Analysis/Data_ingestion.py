@@ -15,9 +15,6 @@ files = [
 
 for file in files:
 
-    print("\n" + "="*70)
-    print("FILE:", file)
-
     df = pd.read_csv(file)
 
     print("\nShape:")

@@ -3,7 +3,7 @@ import pandas as pd
 # Load dataset
 df = pd.read_csv("Data/Raw/01_fund_master.csv")
 
-print("FUND MASTER ANALYSIS")
+print("Fund Master Analysis")
 
 # Total Schemes
 print("\nTotal Schemes:")
